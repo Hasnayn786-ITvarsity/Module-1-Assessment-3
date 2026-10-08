@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Cinzel+Decorative:wght@700&family=Fredoka:wght@700&family=Orbitron:wght@800&family=Faster+One&display=swap');
+.gallery img{
+    width: 100%;
+    
+}
+#menu{
+      width:100%;
+      height:60px;
+      background-color: cornflowerblue;
+      display: flex;
+      align-items: center;
+    justify-content: flex-start;
+   padding-left: 20px;
+}
+
+#menu a{
+      color:#ffffff;
+      font-family: 'Fredoka', 'Baloo', sans-serif;
+      font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;text-transform: uppercase;
+      text-decoration:none;
+      padding: 0 30px;
+    position: relative;
+}
+
+#menu a:hover{
+       color: #ffeb3b;
+}
+
+
+
+ul {
+    padding-left: 0px;
+    list-style-position: inside;
+}
+h1{
+    margin: 15px 0 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+.batman-title{
+    font-family: 'Bangers', cursive;
+    font-size: 75px;
+}
+.superman-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 75px;
+    color: #c8102e;
+    text-shadow: 4px 4px 0 #0055a4;
+}
+.wonderwoman-title{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 62px;
+    color: #b8860b;
+}
+.greenlantern-title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 62px;
+    color: #0a5c36;
+}
+.flash-title{
+    font-family: 'Faster One', cursive;
+    font-size: 75px;
+    color: #d32f2f;
+}
